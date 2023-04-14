@@ -37,9 +37,6 @@ const recipeSchema = new Schema({
     type: Date,
     default: 04/14/2023
   }
-
-
-  
 });
 
 const Recipe = mongoose.model('Recipe', recipeSchema);
